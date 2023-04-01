@@ -1,0 +1,104 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.full {
+  width: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+.transition {
+  transition: 0.5s;
+}
+.quiz-logo {
+  position: absolute;
+  top: -10rem;
+  right: -8rem;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .quiz-logo {
+    right: -10.1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 40%;
+  }
+
+  .quiz-logo {
+    width: 18rem;
+    right: -9rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 30%;
+  }
+}
