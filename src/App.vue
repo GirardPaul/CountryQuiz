@@ -70,7 +70,7 @@ onMounted(async () => {
 
 <template>
   <section class="container flex column">
-    <h1>COUNTRY QUIZ</h1>
+    <h1>QUIZ PAYS</h1>
     <div class="quiz-content">
       <img
         v-if="!end"
