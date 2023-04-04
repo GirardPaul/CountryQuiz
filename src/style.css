@@ -85,6 +85,19 @@ textarea {
     font-size: 40%;
   }
 
+  #app {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  section {
+    width: 80%;
+  }
+  .quiz-content {
+    max-width: 100% !important;
+  }
+
   .quiz-logo {
     width: 18rem;
     right: -9rem;
